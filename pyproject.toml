@@ -6,5 +6,5 @@ readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "faker>=40.4.0",
-    "mariadb>=1.1.14",
+    "rich>=14.3.2",
 ]
