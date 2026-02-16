@@ -1,0 +1,10 @@
+[project]
+name = "db-test"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "faker>=40.4.0",
+    "mariadb>=1.1.14",
+]
