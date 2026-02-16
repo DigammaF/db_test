@@ -22,6 +22,9 @@ class Database:
 			file.write("")
 
 	def fmt_value(self, value: Any) -> str:
+		if value is None:
+			return "NULL"
+
 		if isinstance(value, str):
 			return f"'{value}'"
 		
